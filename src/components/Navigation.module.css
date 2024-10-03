@@ -1,0 +1,64 @@
+.header {
+  width: 90%;
+  margin-inline: auto;
+}
+
+.headerTop h1 {
+  color: #fff;
+  font-size: 1.75rem;
+}
+
+.headerTop p {
+  color: hsl(228, 34%, 66%);
+  font-weight: bold;
+}
+
+.light .headerTop h1 {
+  color: hsl(230, 17%, 14%);
+}
+
+.light .headerTop p {
+  color: hsl(228, 12%, 44%);
+}
+
+.headerTop {
+  border-bottom: 1px solid hsl(230, 17%, 14%);
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  padding-top: 2rem;
+}
+
+.light .headerTop {
+}
+
+.toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.toggle p {
+  color: hsl(228, 34%, 66%);
+  font-weight: 700;
+}
+
+.light .toggle p {
+  color: hsl(228, 12%, 44%);
+}
+
+@media (min-width: 62.5em) {
+    .header {
+        display: flex;
+        justify-content: space-between;
+        width: 97%;
+    }
+
+    .toggle {
+        gap: .75rem;
+    }
+
+    .headerTop {
+        border-bottom: none;
+        margin-bottom: 0;
+    }
+}

@@ -1,0 +1,71 @@
+.overviewCard {
+  width: 90%;
+  margin-inline: auto;
+  padding: 1.5rem;
+  background-color: hsl(228, 28%, 20%);
+  margin-bottom: 2rem;
+  border-radius: 0.3rem;
+  transition: all 0.3s;
+}
+
+.light.overviewCard {
+  background-color: hsl(227, 47%, 96%);
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex:nth-child(2) {
+  align-items: end;
+}
+
+.flex:first-child {
+  margin-bottom: 2rem;
+}
+
+.stats {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.overviewCard h3 {
+  font-size: 2.5rem;
+  color: #fff;
+  line-height: 1;
+}
+
+.light.overviewCard h3 {
+  color: #000;
+}
+
+.title {
+  color: hsl(228, 34%, 66%);
+  font-weight: bold;
+}
+
+.light .title {
+  color: hsl(228, 12%, 44%);
+}
+
+@media (min-width: 62.5em) {
+  .overviewCard {
+    margin-bottom: 1rem;
+    cursor: pointer;
+  }
+
+  .overviewCard:hover {
+    background-color: #333a56;
+  }
+
+  .light.overviewCard:hover {
+    background-color: #E1E3F0;
+  }
+
+  .overviewCard h3 {
+    font-size: 2rem;
+  }
+}
