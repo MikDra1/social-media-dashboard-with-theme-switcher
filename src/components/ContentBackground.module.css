@@ -1,0 +1,14 @@
+.contentBackground {
+    background-color: hsl(225, 100%, 98%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 27.5vh;
+    z-index: -1;
+    border-radius: 0 0 1rem 1rem;
+}
+
+.contentBackgroundDark.contentBackgroundDark {
+    background-color: hsl(232, 19%, 15%);
+}
